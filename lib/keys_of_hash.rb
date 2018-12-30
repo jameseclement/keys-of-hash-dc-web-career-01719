@@ -7,5 +7,6 @@ class Hash
    array << animal
  end
     }
+    array
   end
 end
