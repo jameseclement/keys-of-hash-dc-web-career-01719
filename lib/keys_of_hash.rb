@@ -4,7 +4,7 @@ class Hash
    array = []
     self.each { |animal, country|
    binding.pry
- end
+
     }
     array
   end
