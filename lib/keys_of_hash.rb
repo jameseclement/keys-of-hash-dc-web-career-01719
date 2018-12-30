@@ -5,6 +5,7 @@ class Hash
     self.each { |animal, country|
    if country == arguments
    array << animal
+ end
     }
   end
 end
