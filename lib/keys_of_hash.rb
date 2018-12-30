@@ -3,7 +3,7 @@ class Hash
   def keys_of(*arguments)
    array = []
     self.each { |animal, country|
-   if country == arguments
+   if country == *arguments
    array << animal
  end
     }
