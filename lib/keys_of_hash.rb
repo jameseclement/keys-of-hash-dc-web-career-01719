@@ -5,7 +5,7 @@ class Hash
     self.each { |animal, country|
    if arguments.include?(country)
   array << animal
-
+end
     }
     array
   end
